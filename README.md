@@ -3,16 +3,16 @@
 ## 1. Create Account
 ### Response Validation
 This script contains tests to validate the response from a request.
-#### Test 1: Request is succeed
+- *Test 1: Request is succeed*
 This test checks that the request was successful by verifying that the response status code is 200.
-#### Test 2: Response delay is accepted
+- *Test 2: Response delay is accepted*
 This test checks that the response time is within an acceptable range by verifying that the response time is below 1000 milliseconds.
 
 ### Contents Response Validation
 This script contains tests to validate the contents of the response body.
-- Test 1: 'id' is generated
+- *Test 1: `'id'` is generated*
 This test checks that the 'id' field in the response body is not empty.
-- Test 2: 'token' is generated
+- *Test 2: `'token'` is generated*
 This test checks that the 'token' field in the response body is not empty.
 
 ### Parsing the inserted value into environment variables

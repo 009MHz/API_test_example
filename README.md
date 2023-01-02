@@ -10,9 +10,9 @@ This test checks that the response time is within an acceptable range by verifyi
 
 ### Contents Response Validation
 This script contains tests to validate the contents of the response body.
-#### Test 1: 'id' is generated
+- Test 1: 'id' is generated
 This test checks that the 'id' field in the response body is not empty.
-#### Test 2: 'token' is generated
+- Test 2: 'token' is generated
 This test checks that the 'token' field in the response body is not empty.
 
 ### Parsing the inserted value into environment variables

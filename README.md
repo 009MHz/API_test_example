@@ -1,6 +1,6 @@
 # moduit API test Documentations
 
-## <font color = 'orange'>1. Create Account </font>
+## <span style = 'color:orange'>1. Create Account </span>
 ### Response Validation
 This script contains tests to validate the response from a request.
 - *Test 1: Request is succeed* <br>
@@ -27,7 +27,7 @@ This script contains code to parse the response body and store the values in env
 
 The script first parses the response body as a JSON object and stores it in the `data` variable. It then uses the `postman.setEnvironmentVariable()` function to set the values of the `id` and `token` environment variables.
 
-## <font color = "green">2. Check Account Details </font>
+## <span style = 'color:green'>2. Check Account Details </span>
 ### Response Validation
 This script contains tests to validate the response from a request.
 - *Test 1: Request is succeed* <br>
@@ -50,7 +50,7 @@ This test checks that the `first_name` field in the response body is correct by 
 - *Test 4: User "***last name***" is correct* <br>
 This test checks that the `last_name` field in the response body is correct by comparing it to the value of the `last_name` environment variable.
 
-## 3. Update Account
+## <span style = 'color:blue'>3. Update Account </span>
 ### Response Validation
 This script contains tests to validate the response from a request.
 

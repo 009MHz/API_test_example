@@ -1,6 +1,6 @@
 # moduit API test Documentations
 
-## <span style = 'color:orange'>1. Create Account </span>
+## <span style ="color:orange">1. Create Account</span>
 ### Response Validation
 This script contains tests to validate the response from a request.
 - *Test 1: Request is succeed* <br>

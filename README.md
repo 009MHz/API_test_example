@@ -3,16 +3,16 @@
 ## 1. Create Account
 ### Response Validation
 This script contains tests to validate the response from a request.
-- *Test 1: Request is succeed*
+- *Test 1: Request is succeed* <br>
 This test checks that the request was successful by verifying that the response status code is 200.
-- *Test 2: Response delay is accepted*
+- *Test 2: Response delay is accepted* <br>
 This test checks that the response time is within an acceptable range by verifying that the response time is below 1000 milliseconds.
 
 ### Contents Response Validation
 This script contains tests to validate the contents of the response body.
-- *Test 1: User `'id'` is generated* <br>
+- *Test 1: User "***id***" is generated* <br>
 This test checks that the 'id' field in the response body is not empty.
-- *Test 2: `'token'` is generated* <br>
+- *Test 2: ***token*** is generated* <br>
 This test checks that the 'token' field in the response body is not empty.
 
 ### Parsing the inserted value into environment variables
@@ -28,21 +28,18 @@ The script first parses the response body as a JSON object and stores it in the 
 ## 2. Check Account Details
 ### Response Validation
 This script contains tests to validate the response from a request.
-- *Test 1: Request is succeed*
+- *Test 1: Request is succeed* <br>
 This test checks that the request was successful by verifying that the response status code is 200.
-- *Test 2: Response delay is accepted*
+- *Test 2: Response delay is accepted* <br>
 This test checks that the response time is within an acceptable range by verifying that the response time is below 1000 milliseconds.
 
 ### Contents Response Validation
 This script contains tests to validate the contents of the response body.
-- *Test 1: User ***id*** is correct*
+- *Test 1: User ***"id"*** is correct* <br>
 This test checks that the `id` field in the response body is correct by comparing it to the value of the `id` that stored in the environment variable.
-
-- *Test 2: User ***email*** is correct*
+- *Test 2: User ***email*** is correct* <br>
 This test checks that the `email` field in the response body is correct by comparing it to the value of the *"email"* environment variable.
-
-- *Test 3: User ***"first name"*** is correct*
+- *Test 3: User ***"first name"*** is correct* <br>
 This test checks that the `first_name` field in the response body is correct by comparing it to the value of the `first_name` environment variable.
-
-- Test 4: User "***last name***" is correct
+- *Test 4: User "***last name***" is correct* <br>
 This test checks that the `last_name` field in the response body is correct by comparing it to the value of the `last_name` environment variable.

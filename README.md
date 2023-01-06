@@ -1,4 +1,4 @@
-# moduit API test Documentations
+# API test Documentations
 
 ## <span style ="color:orange">1. Create Account</span>
 ### Response Validation

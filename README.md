@@ -1,4 +1,4 @@
-# API test Documentations
+# Test Documentations
 
 ## <span style ="color:orange">1. Create Account</span>
 ### Response Validation
